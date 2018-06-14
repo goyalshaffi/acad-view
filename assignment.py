@@ -24,6 +24,6 @@ print("%s %s %d"%(s,course,fees))
 #question6
 name="tony stark"
 salary=1000000
-print('%s"%d')%(name,salary)
+print('%s %d')%(name,salary)
 
 
