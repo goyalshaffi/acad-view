@@ -1,4 +1,4 @@
-#question 1
+'''#question 1
 a=input("enter no")
 c=input("enter no")
 b=[]
@@ -32,11 +32,11 @@ for i in h:
     g.append(i)
 g.sort()
 print(g)
-
+'''
 #question 6
+'''
 
 stackk=[]
-while(True):
     resp = input("What would you like do with stack??\n 1. Push\n 2. Pop\n 3. Display \n 4.Exit\nYour Response: ")
 
     if resp==1:
@@ -48,6 +48,7 @@ while(True):
       print("\n\nStack is empty.... You can't pop\n\n")
      else:
       item = stackk.pop()
+      print(stackk)
     elif resp==3:
      print(stackk)
      print("\n\n")
@@ -55,11 +56,11 @@ while(True):
      break
     else:
      print("\n\nPlease Enter a valid input!!\n\n")
-
+     '''
 
  # queue
 queue = []
-while (True):
+ while(true):
     resp = input("What would you like do with que??\n 1. queue\n 2. dequeue\n 3. Display \n 4.Exit\nYour Response: ")
 
     if resp == 1:
@@ -70,7 +71,8 @@ while (True):
         if (len(queue) == 0):
             print("\n\nque is empty.... You can't pop\n\n")
         else:
-            item = queue._delitem_(0)
+            item = queue.pop(0)
+            print(queue)
     elif resp == 3:
         print(queue)
         print("\n\n")
@@ -91,7 +93,6 @@ for x in s:
         oddno.append(x)
 print(evenno,len(evenno))
 print(oddno,len(oddno))
-
 
 
 
