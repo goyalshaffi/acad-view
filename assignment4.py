@@ -1,5 +1,5 @@
 # Q1
-
+'''
 t=(1,2,3,8)
 print(len(t))
 
@@ -39,7 +39,7 @@ d1={}
 d3=input("enter value")
 d1.update(d3)
 print(d1)
-
+'''
 # Q3
 
 

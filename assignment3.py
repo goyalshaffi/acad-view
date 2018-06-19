@@ -1,4 +1,4 @@
-'''#question 1
+#question 1
 a=input("enter no")
 c=input("enter no")
 b=[]
@@ -32,16 +32,18 @@ for i in h:
     g.append(i)
 g.sort()
 print(g)
-'''
+
 #question 6
-'''
+
 
 stackk=[]
+while(True):
     resp = input("What would you like do with stack??\n 1. Push\n 2. Pop\n 3. Display \n 4.Exit\nYour Response: ")
 
     if resp==1:
      item = input("\n\nEnter item that you want to add to stack:")
      stackk.append(item)
+     print(stackk)
 
     elif resp==2:
      if(len(stackk)==0):
@@ -56,16 +58,18 @@ stackk=[]
      break
     else:
      print("\n\nPlease Enter a valid input!!\n\n")
-     '''
+
 
  # queue
 queue = []
- while(true):
+while(True):
+
     resp = input("What would you like do with que??\n 1. queue\n 2. dequeue\n 3. Display \n 4.Exit\nYour Response: ")
 
     if resp == 1:
         item = input("\n\nEnter item that you want to add to que:")
         queue.append(item)
+        print(queue)
 
     elif resp == 2:
         if (len(queue) == 0):
