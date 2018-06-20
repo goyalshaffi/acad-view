@@ -36,8 +36,9 @@ print(o&p)
 
 # Q1
 d1={}
-d3=input("enter value")
-d1.update(d3)
+value=input("enter value")
+key=input("enter key")
+d1[key]=value
 print(d1)
 '''
 # Q3

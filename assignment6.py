@@ -1,5 +1,5 @@
 # q1
-
+'''
 for i in range(1,11):
   print(int(input("enter no")))
 
@@ -64,18 +64,20 @@ for i in range(0,4):
     print("*",end-" ")
   print("\r")
 
-
+'''
 
 # q7
 
 d1={}
-d3=input("enter no")
-d1.update(d3)
+value=input("enter value")
+key=input("enter key")
+d1[key]=value
+
 print(d1)
 for i in d1:
-  print(i)
+    print(i)
 
-
+'''
 # q8
 
 
@@ -89,3 +91,4 @@ for i in l:
     l.remove(i)
 print(l)
 
+'''
