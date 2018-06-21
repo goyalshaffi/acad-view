@@ -62,7 +62,41 @@ a=input("enter no")
 def recur_fact(a):
     if(a==1):
         return 1
-    else:
-        return(a*recur_fact(a-1))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+88888888888888888888888        return(a*recur_fact(a-1))
 print(recur_fact(a))
 

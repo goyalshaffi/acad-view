@@ -69,9 +69,10 @@ for i in range(0,4):
 # q7
 
 d1={}
-value=input("enter value")
-key=input("enter key")
-d1[key]=value
+for i in range(1,4):
+    value=input("enter value")
+    key=input("enter key")
+    d1[key]=value
 
 print(d1)
 for i in d1:
